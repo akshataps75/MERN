@@ -1,0 +1,3 @@
+This is a sample text file to learn the fs module
+Non-Blocking Integrity — FAIL
+fs.readFileSync lives entirely on the call stack. For the entire duration of the file read, the Event Loop is frozen. Under 100 concurrent users, requests queue up serially — user 100 waits for users 1–99 to each finish their file read. This is the single most common Node.js beginner mistake.

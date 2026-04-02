@@ -1,0 +1,4 @@
+There are 3 ways to handfle async:
+1. callback
+2. Promises
+3. Await/async- this is the method being used in this example
